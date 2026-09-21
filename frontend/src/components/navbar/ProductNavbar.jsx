@@ -4,8 +4,8 @@ import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import search_icon from "../../assets/product_assets/search_icon.png";
-import { ShopContext } from "../../context/ShopContext";
-import ProductMobileMenu from "./ProductMobileMenu";
+import { ShopContext } from "../../context/ShopContext.jsx";
+import ProductMobileMenu from "./ProductMobileMenu.jsx";
 
 const ProductNavbar = () => {
   const [theme, setTheme] = useState("light");

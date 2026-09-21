@@ -1,14 +1,8 @@
 import React from 'react'
 import { Users, Award, Briefcase } from 'lucide-react'
-import Navbar from '../components/navbar/Navbar'
-import Footer from '../components/Footer/Footer'
+import Navbar from '../components/navbar/Navbar.jsx'
+import Footer from '../components/Footer/Footer.jsx'
 import amitavo from "../assets/amitavo.jpg";
-import krisna from "../assets/krisna.jpg";
-import rajesh from "../assets/rajesh.png";
-import saibal from "../assets/saibal.png";
-import soumyendu from "../assets/soumyendu.png";
-import surojit from "../assets/surojit.png";
-import syamalendu from "../assets/syamalendu.png";
 
 
 const OurManagement = () => {
@@ -25,42 +19,42 @@ const OurManagement = () => {
       title: "Headmistress",
       credentials: "BA (Spl. Edu.)",
       description: "Award winning social worker,\nTrained in special need education",
-      image: krisna
+      image: 'https://res.cloudinary.com/srwqzwiw/image/upload/v1787908820/Krishna.jpg'
     },
     {
       name: "Syamalendu Banerjee",
       title: "Secretary",
       credentials: "B.Engg.",
       description: "Ex-AGM (Materials),\nGarden Reach Shipbuilders",
-      image: syamalendu
+      image: 'https://res.cloudinary.com/srwqzwiw/image/upload/v1787909322/Screenshot_2026-08-28_145714-Picsart-AiImageEnhancer.png'
     },
     {
       name: "Rajesh Ghosh",
       title: "Treasurer",
       credentials: "M.Sc, PGDBM",
       description: "Ex-Director, Simoco Telecom (South Asian Region)",
-      image: rajesh
+      image: 'https://res.cloudinary.com/srwqzwiw/image/upload/v1787854843/Rajesh.jpg'
     },
     {
       name: "Surajit Nag",
       title: "Assistant Secretary",
       credentials: "LLB, ACS",
       description: "Sr. GM & Company Secretary (retd.) – Williamson Tea",
-      image: surojit
+      image: 'https://res.cloudinary.com/srwqzwiw/image/upload/v1787909321/Screenshot_2026-08-28_145254-Picsart-AiImageEnhancer.png'
     },
     {
       name: "Saibal Mukherjee",
       title: "Assistant Treasurer",
       credentials: "Advocate",
       description: "Practicing Tax Consultant &\nPartner at Micro V & Co.",
-      image: saibal
+      image: 'https://res.cloudinary.com/srwqzwiw/image/upload/v1787908779/Saibal.jpg'
     },
     {
       name: "Soumyendu Banerjee",
       title: "CSR Coordinator",
       credentials: "BME",
       description: "Ex-Project Mgr. – Saudi Aramco,\nConsultant – Jacobs Calfran",
-      image: soumyendu
+      image: 'https://res.cloudinary.com/srwqzwiw/image/upload/v1787909323/Screenshot_2026-08-28_145342-Picsart-AiImageEnhancer.png'
     }
   ]
 

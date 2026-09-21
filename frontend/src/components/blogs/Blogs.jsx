@@ -2,7 +2,7 @@ import React from "react";
 import yoga from "../../assets/yoga.jpg";
 import posing from "../../assets/posing_contest.jpg";
 import inde from "../../assets/indipendance_day.jpg";
-import Blog from "./Blog";
+import Blog from "./Blog.jsx";
 import prize_distribution from "../../assets/prize_distribution.jpg";
 import carft from "../../assets/craft.jpg";
 

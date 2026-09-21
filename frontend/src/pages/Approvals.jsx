@@ -1,8 +1,7 @@
 import React from "react";
 import { Download, Award, CheckCircle } from "lucide-react";
 import All_merged from "../assets/All_merged.pdf";
-import Navbar from "../components/navbar/Navbar";
-import Footer from "../components/Footer/Footer";
+import Navbar from "../components/navbar/Navbar.jsx";
 const Approvals = () => {
   // Replace this with your actual PDF path
   const pdfUrl = All_merged;

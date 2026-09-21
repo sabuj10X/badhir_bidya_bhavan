@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { ShopContext } from "../../context/Shopcontext";
+import { ShopContext } from "../../context/ShopContext.jsx";
 import search_icon from "../../assets/product_assets/search_icon.png";
 import cross_icon from "../../assets/product_assets/cross_icon.png";
 import { useLocation } from "react-router-dom";

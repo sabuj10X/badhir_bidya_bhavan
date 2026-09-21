@@ -1,15 +1,14 @@
 import React from "react";
 import { Heart, Users, Award, Target, BookOpen, Handshake } from "lucide-react";
-import Navbar from "../components/navbar/Navbar";
-// import logo from "../assets/front_image.jpg";
-import AboutUsHero from "../components/hero/AboutUsHero";
-import Story from "../components/story/Story";
-import Footer from "../components/Footer/Footer";
-import AboutOverview from "../components/OverviewCounter/AboutOverview";
-import Values from "../components/ourvision/Values";
-import AboutUsContacts from "../components/contacts/AboutUsContacts";
-import AboutusBanner from "../components/banner/AboutusBanner";
-import Mother from "../components/speech/Mother";
+import Navbar from "../components/navbar/Navbar.jsx";
+import AboutUsHero from "../components/hero/AboutUsHero.jsx";
+import Story from "../components/story/Story.jsx";
+import Footer from "../components/Footer/Footer.jsx";
+import AboutOverview from "../components/OverviewCounter/AboutOverview.jsx";
+import Values from "../components/ourvision/Values.jsx";
+import AboutUsContacts from "../components/contacts/AboutUsContacts.jsx";
+import AboutusBanner from "../components/banner/AboutusBanner.jsx";
+import Mother from "../components/speech/Mother.jsx";
 const AboutUs = () => {
   return (
     <div className="min-h-screen bg-gray-50">

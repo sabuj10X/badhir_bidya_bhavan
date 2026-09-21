@@ -2,10 +2,10 @@ import React from 'react'
 import { Heart, Users, Award, Target, BookOpen, Handshake  } from "lucide-react";
 
 const stats = [
-  { number: "500+", label: "Students Helped", icon: <BookOpen className="w-6 h-6" /> },
-  { number: "40", label: "Years of Service", icon: <Award className="w-6 h-6" /> },
+  { number: "1000+", label: "Students Trained", icon: <BookOpen className="w-6 h-6" /> },
+  { number: "37", label: "Years of Service", icon: <Award className="w-6 h-6" /> },
   { number: "50+", label: "Active Volunteers", icon: <Users className="w-6 h-6" /> },
-  { number: "10:1", label: "Student to Teacher Ratio", icon: <Heart className="w-6 h-6" /> },
+  { number: "10:1", label: "Student - Teacher Ratio", icon: <Heart className="w-6 h-6" /> },
   { number: "10+", label: "Programs Running", icon: <Target className="w-6 h-6" /> }
 ]
 const AboutOverview = () => {

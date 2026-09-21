@@ -1,16 +1,16 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import AboutUs from "./pages/AboutUs";
-import HomePage from "./pages/HomePage";
-import ContactUs from "./pages/ContactUs";
+import AboutUs from "./pages/AboutUs.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import ContactUs from "./pages/ContactUs.jsx";
 import { Toaster } from "react-hot-toast";
-import Product from "./pages/Product";
-import Collection from "./pages/Collection";
-import Products from "./pages/Products";
-import { ShopContextProvider } from "./context/ShopContext";
-import Donation from "./pages/Donation";
-import Approvals from "./pages/Approvals";
-import OurManagement from "./pages/OurManagement";
+import Product from "./pages/Product.jsx";
+import Collection from "./pages/Collection.jsx";
+import Products from "./pages/Products.jsx";
+import { ShopContextProvider } from "./context/ShopContext.jsx";
+import Donation from "./pages/Donation.jsx";
+import Approvals from "./pages/Approvals.jsx";
+import OurManagement from "./pages/OurManagement.jsx";
 
 const App = () => {
   return (

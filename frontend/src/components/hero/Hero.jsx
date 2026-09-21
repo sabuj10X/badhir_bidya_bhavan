@@ -1,10 +1,8 @@
 import React from "react";
-import frontImage from "../../assets/front7.png";
 import study1 from "../../assets/study1.jpg";
 import { motion } from "framer-motion";
-import { ChevronRight, Play, Users, BookOpen, Award } from "lucide-react";
+import { ChevronRight,  Users, BookOpen, Award } from "lucide-react";
 import { Link } from "react-router-dom";
-import toast from "react-hot-toast";
 
 const bgStyle = {
   backgroundImage: `url(${study1})`,
@@ -63,9 +61,9 @@ const FloatAnimation = {
 
 const Hero = () => {
   const stats = [
-    { icon: Users, number: "200+", label: "Students" },
-    { icon: BookOpen, number: "10+", label: "Courses" },
-    { icon: Award, number: "95%", label: "Success Rate" },
+    { icon: Users, number: "1000+", label: "Student Trained" },
+    { icon: BookOpen, number: "5+", label: "Courses" },
+    { icon: Award, number: "99%", label: "Success Rate" },
   ];
 
   return (
@@ -105,7 +103,7 @@ const Hero = () => {
                 className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 text-sm font-medium"
               >
                 <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-                Empowering Deaf Education Since 1986
+                Empowering education for hearing impaired students since 1986...
               </motion.div>
 
               <motion.h1
@@ -139,15 +137,15 @@ const Hero = () => {
                 animate="animate"
                 className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
               >
-                <Link to="/products"  className="group bg-primary hover:bg-primary/90 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl hover:shadow-primary/25 transform hover:-translate-y-1">
+                <Link to="/aboutus"  className="group bg-primary hover:bg-primary/90 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl hover:shadow-primary/25 transform hover:-translate-y-1">
                   Get Started
                   <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 
-                <Link to="/aboutus" className="group bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 flex items-center justify-center gap-2 hover:shadow-lg transform hover:-translate-y-1">
+                {/* <Link to="/aboutus" className="group bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 flex items-center justify-center gap-2 hover:shadow-lg transform hover:-translate-y-1">
                   <Play className="w-5 h-5 group-hover:scale-110 transition-transform" />
                   About US
-                </Link>
+                </Link> */}
               </motion.div>
 
               {/* Stats */}

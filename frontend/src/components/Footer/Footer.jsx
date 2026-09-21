@@ -1,5 +1,5 @@
 import React from "react";
-import Footerlink from "./Footerlink";
+import Footerlink from "./Footerlink.jsx";
 import {
   FaFacebook,
   FaInstagram,

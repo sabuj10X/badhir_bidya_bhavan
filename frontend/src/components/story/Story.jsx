@@ -14,7 +14,8 @@ const Story = () => {
               Our Story
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              How Badhir Bidyabhaban began its journey to empower the hearing-impaired community
+              How Badhir Bidyabhaban began its journey to empower the
+              hearing-impaired community
             </p>
           </div>
 
@@ -28,10 +29,12 @@ const Story = () => {
                   The Beginning (1986)
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  <strong>UTTARPARA</strong>, centrally located at Howrah-Bandel rail line, became home to the 
-                  Welfare Society for the Deaf and Retarded (WSDR). Founded by social activists and 
-                  philanthropists under <strong>Sri Ashutosh Bhattacharya's</strong> leadership, we began 
-                  serving the economically weaker sections of society.
+                  <strong>UTTARPARA</strong>, centrally located at Howrah-Bandel
+                  rail line, became home to the Welfare Society for the Deaf and
+                  Retarded (WSDR). Founded by social activists and
+                  philanthropists under{" "}
+                  <strong>Sri Ashutosh Bhattacharya's</strong> leadership, we
+                  began serving the economically weaker sections of society.
                 </p>
               </div>
 
@@ -42,26 +45,32 @@ const Story = () => {
                   Our Own Home (1992)
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  We acquired our own property just two minutes from Uttarpara railway station. 
-                  Our <strong>4,000 sq.ft. facility</strong> became the <em>only school in Hooghly district</em> 
-                  exclusively engaged in formal education and vocational training for hearing-impaired 
-                  students. Many of our graduates are now economically well-settled in society.
+                  We acquired our own property just two minutes from Uttarpara
+                  railway station. Our <strong>4,000 sq.ft. facility</strong>{" "}
+                  became the <em>only school in Hooghly district</em>
+                  exclusively engaged in formal education and vocational
+                  training for hearing-impaired students. Many of our graduates
+                  are now economically well-settled in society.
                 </p>
               </div>
 
-             
-
               {/* Highlights */}
               <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-200 dark:bg-slate-400 dark:border-slate-600 dark:text-gray-300">
-                <h3 className="text-xl font-bold text-gray-800 mb-6">What We Offer</h3>
+                <h3 className="text-xl font-bold text-gray-800 mb-6">
+                  What We Offer
+                </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                   <div className="flex items-center space-x-3">
                     <span className="w-2 h-2 bg-yellow-400 rounded-full  dark:bg-yellow-400"></span>
-                    <span className="text-gray-600">Pre-primary to Class VIII</span>
+                    <span className="text-gray-600">
+                      Pre-primary to Class VIII
+                    </span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <span className="w-2 h-2 bg-yellow-400 rounded-full dark:bg-yellow-400"></span>
-                    <span className="text-gray-600">Madhyamik Exam preparation</span>
+                    <span className="text-gray-600">
+                      Madhyamik Exam preparation
+                    </span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <span className="w-2 h-2 bg-yellow-400 rounded-full dark:bg-yellow-400"></span>
@@ -81,11 +90,15 @@ const Story = () => {
                   </div>
                   <div className="flex items-center space-x-3">
                     <span className="w-2 h-2 bg-yellow-400 rounded-full dark:bg-yellow-400"></span>
-                    <span className="text-gray-600">Yoga & special classes</span>
+                    <span className="text-gray-600">
+                      Yoga & special classes
+                    </span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <span className="w-2 h-2 bg-yellow-400 rounded-full dark:bg-yellow-400"></span>
-                    <span className="text-gray-600">Nominal fees</span>
+                    <span className="text-gray-600">
+                      Monthly Stipend to all Students
+                    </span>
                   </div>
                 </div>
               </div>
@@ -96,16 +109,18 @@ const Story = () => {
               <div className="relative group">
                 {/* Subtle glow effect */}
                 <div className="absolute inset-0 bg-blue-400 rounded-2xl blur-lg opacity-20 group-hover:opacity-30 transition-opacity duration-300"></div>
-                
+
                 <img
                   src={front_image}
                   alt="Badhir Bidyabhaban School Building"
                   className="relative w-full h-[600px] object-cover rounded-2xl shadow-xl border-4 border-white group-hover:scale-[1.02] transition-transform duration-300"
                 />
-                
+
                 {/* Simple overlay badge */}
                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-3 py-2 shadow-lg">
-                  <span className="text-sm font-semibold text-gray-800">Est. 1986</span>
+                  <span className="text-sm font-semibold text-gray-800">
+                    Est. 1986
+                  </span>
                 </div>
               </div>
 
@@ -114,7 +129,8 @@ const Story = () => {
                 <div className="text-center">
                   <h4 className="font-semibold text-gray-800 mb-2">Location</h4>
                   <p className="text-sm text-gray-600">
-                    2 minutes from Uttarpara Railway Station<br/>
+                    2 minutes from Uttarpara Railway Station
+                    <br />
                     Howrah-Bandel Rail Line, West Bengal
                   </p>
                 </div>

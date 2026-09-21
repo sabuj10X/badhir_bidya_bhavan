@@ -3,7 +3,7 @@ import { FaCaretDown } from "react-icons/fa";
 import { BiPhoneCall, BiSolidMoon } from "react-icons/bi";
 import { BiSolidSun } from "react-icons/bi";
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
-import MobileMenu from "./MobileMenu";
+import MobileMenu from "./MobileMenu.jsx";
 import logo from "../../assets/logo.png";
 
 const Navbar = () => {
@@ -127,7 +127,7 @@ const Navbar = () => {
                     </div>
                     <div>
                       <p className="text-sm text-violet-200 group-hover:text-white transition-colors duration-300">
-                        Talk to us
+                        Contact Us
                       </p>
                       <p className="font-semibold group-hover:text-violet-300 transition-colors duration-300">
                         +91 9831475875

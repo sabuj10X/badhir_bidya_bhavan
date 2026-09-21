@@ -37,7 +37,7 @@ const OverviewSection = () => {
             training to its hearing impaired students for nearly four decades.
             Many of our hearing impaired students after completion of their
             education and training in our school are now economically well
-            settled in the society
+            settled in the society.
           </p>
           <h1 className="text-2xl md:text-2xl font-bold text-indigo-900 mb-6 mt-8">
             The highlights of the school are:
@@ -48,21 +48,21 @@ const OverviewSection = () => {
               <span>
                 Academic classes from the age of 3 (Pre-primary) up to class
                 Vill standard. Students can sit for Madhyamik Exam based on our
-                tie up with a Secondary School
+                tie up with a Secondary School.
               </span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>
                 Qualified teachers and special educators. Student-teacher ratio
-                currently is 10:1
+                currently is 10:1.
               </span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>
                 Own building with adequate space for various academic and
-                vocational activities
+                vocational activities.
               </span>
             </li>
             <li className="flex items-start">
@@ -84,12 +84,12 @@ const OverviewSection = () => {
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>
-                Special classes on yoga, acrobatic exercises, drawing etc
+                Special classes on yoga, acrobatic exercises, drawing etc.
               </span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span>Indoor games Carrom, Chess, Basket Ball etc</span>
+              <span>Indoor games Carrom, Chess, Basket Ball etc.</span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
@@ -104,23 +104,31 @@ const OverviewSection = () => {
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+              <span>Monthly stipend to the Students.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+              <span>Smart Classroom</span>
+            </li>
+            <li className="flex items-start">
+              <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>
                 Government of West Bengal provides school uniforms, bags and
-                shoes every year
+                shoes every year.
               </span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>
                 This non-profit organisation is run and managed primarily on
-                donations
+                donations.
               </span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>
                 The school is looking for new students, donors, workers and well
-                wishers for further growth. Our immediate goals are
+                wishers for further growth.
               </span>
             </li>
             <li className="flex items-start">
@@ -131,22 +139,15 @@ const OverviewSection = () => {
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span>Augmenting our existing Solar Panels</span>
+              <span>Augmenting our existing Solar Panels.</span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>
-                Enrolling more trained teaching stuffs, students, and trainers
+                Enrolling more trained teaching stuffs, students, and trainers.
               </span>
             </li>
-            <li className="flex items-start">
-              <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span>Monthly stipend to the Students</span>
-            </li>
-            <li className="flex items-start">
-              <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span>Smart Classroom</span>
-            </li>
+            
           </ul>
         </div>
       </div>

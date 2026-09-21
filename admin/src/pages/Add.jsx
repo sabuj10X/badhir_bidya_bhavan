@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
-import {assets} from "../assets/assets";
-import { useAuthStore } from "../store/useAuthstore";
+import {assets} from "../assets/assets.js";
+import { useAuthStore } from "../store/useAuthstore.js";
 const Add = () => {
 
   const [image1 , setImage1]  = useState(false);

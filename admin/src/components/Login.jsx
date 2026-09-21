@@ -1,7 +1,7 @@
 import React, { use, useState } from "react";
 import { Mail, Lock, Eye, EyeOff } from "lucide-react";
 import toast, { Toaster } from "react-hot-toast";
-import { useAuthStore } from "../store/useAuthstore";
+import { useAuthStore } from "../store/useAuthstore.js";
 
 const Login = () => {
   const [formData, setFormData] = useState({

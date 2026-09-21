@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
-import { useAuthStore } from '../store/UseAuthstore';
-import Title from '../components/Title';
-import ProductItem from '../components/ProductItem';
+import { useAuthStore } from '../store/useAuthstore.js';
+import Title from '../components/Title.jsx';
+import ProductItem from '../components/ProductItem.jsx';
 const List = () => {
   const {productList, getProducts , removeProduct} = useAuthStore();
 

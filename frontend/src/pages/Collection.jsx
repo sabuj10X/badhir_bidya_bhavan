@@ -1,11 +1,11 @@
 import React, { useEffect, useState, useContext } from "react";
-import ProductNavbar from "../components/navbar/ProductNavbar";
-import Footer from "../components/footer/Footer";
-import { ShopContext } from "../context/Shopcontext";
+import ProductNavbar from "../components/navbar/ProductNavbar.jsx";
+import Footer from "../components/Footer/Footer.jsx";
+import { ShopContext } from "../context/ShopContext.jsx";
 import dropdown_icon from "../assets/product_assets/dropdown_icon.png";
-import Title from "../components/title/Title";
-import ProductItem from "../components/productitem/ProductItem";
-import SearchBar from "../components/searchBar/SearchBar";
+import Title from "../components/title/Title.jsx";
+import ProductItem from "../components/productItem/ProductItem.jsx";
+import SearchBar from "../components/searchBar/SearchBar.jsx";
 
 const Collection = () => {
   const { products, search, showSerach } = useContext(ShopContext);

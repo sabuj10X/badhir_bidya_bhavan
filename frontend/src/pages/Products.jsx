@@ -1,11 +1,9 @@
 import React from "react";
-import ProductNavbar from "../components/navbar/ProductNavbar";
-import ProductHero from "../components/hero/ProductHero";
-import LatestCollection from "../components/LatestCollection/LatestCollection";
-import Footer from "../components/footer/Footer";
-import BestSeller from "../components/latestCollection/BestSeller";
-import Ourpolicy from "../components/ourpolicy/Ourpolicy";
-import SearchBar from "../components/searchBar/SearchBar";
+import ProductNavbar from "../components/navbar/ProductNavbar.jsx";
+import LatestCollection from "../components/LatestCollection/LatestCollection.jsx";
+import Footer from "../components/Footer/Footer.jsx";
+import BestSeller from "../components/latestCollection/BestSeller.jsx";
+import SearchBar from "../components/searchBar/SearchBar.jsx";
 const Products = () => {
   // main page where the products are being listed
   return (
@@ -13,10 +11,8 @@ const Products = () => {
       <ProductNavbar />
       <div className="pt-[75px] ">
         <SearchBar />
-        <ProductHero />
         <LatestCollection />
         <BestSeller/>
-        <Ourpolicy/>
       </div>
       <Footer/>
     </div>

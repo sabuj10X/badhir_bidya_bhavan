@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar.jsx";
+import Sidebar from "./components/Sidebar.jsx";
 import { Route, Routes } from "react-router-dom";
-import Add from "./pages/Add";
-import List from "./pages/List";
-import Login from "./components/Login";
+import Add from "./pages/Add.jsx";
+import List from "./pages/List.jsx";
+import Login from "./components/Login.jsx";
 
 import { Toaster } from "react-hot-toast";
-import { useAuthStore } from "./store/UseAuthstore";
+import { useAuthStore } from "./store/useAuthstore.js";
 // export const backendUrl = import.meta.env.VITE_BACKEND_URL;
 export default function App() {
   const { authUser } = useAuthStore();

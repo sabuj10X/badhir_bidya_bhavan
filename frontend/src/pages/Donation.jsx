@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import f1 from "../assets/f1.jpg";
 import qr from "../assets/qr.jpg";
-import Navbar from '../components/navbar/Navbar';
-import Footer from '../components/Footer/Footer';
+import Navbar from '../components/navbar/Navbar.jsx';
+import Footer from '../components/Footer/Footer.jsx';
 import { toast } from 'react-hot-toast';
 const Donation = () => {
   const [showUpiQr, setShowUpiQr] = useState(false);

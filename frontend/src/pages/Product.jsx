@@ -1,9 +1,9 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { ShopContext } from "../context/ShopContext";
-import Footer from "../components/Footer/Footer";
-import ProductNavbar from "../components/navbar/ProductNavbar";
-import RelatedProducts from "../components/relatedProducts/RelatedProducts";
+import { ShopContext } from "../context/ShopContext.jsx";
+import Footer from "../components/Footer/Footer.jsx";
+import ProductNavbar from "../components/navbar/ProductNavbar.jsx";
+import RelatedProducts from "../components/relatedProducts/RelatedProducts.jsx";
 // import toast from "react-hot-toast";
 
 const Product = () => {
