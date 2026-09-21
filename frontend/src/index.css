@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a hr {
+  display: none;
+}
+a.active hr {
+  display: block;
+}
+
+@layer utilities{
+  .btn-primary{
+    @apply rounded-md border-2 border-primary bg-primary px-4 py-2 text-sm text-white font-semibold hover:bg-primary/90 transition-colors duration-200;
+  }
+  .btn-outline{
+    @apply rounded-md border-2 border-white bg-transparent px-4 py-2 text-sm text-white font-semibold hover:bg-primary/10 transition-colors duration-300;
+  }
+}
+
