@@ -21,15 +21,16 @@ const BestSeller = () => {
           Select the best selling products from us.
         </p>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 gap-y-6">
-        {
-          bestSeller.map((item , index) => (<ProductItem
-          key={index} id={item._id} image={item.image} name={item.bestseller}
-          
-          price={item.price}
-          
-          />))
-        }
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 gap-y-6">
+        {bestSeller.map((item, index) => (
+          <ProductItem
+            key={index}
+            id={item._id}
+            image={item.image}
+            name={item.bestseller}
+            price={item.price}
+          />
+        ))}
       </div>
     </div>
   );
