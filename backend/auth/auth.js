@@ -9,11 +9,9 @@ export const generateToken = async (id, res) => {
   });
   res.cookie("jwt", token, {
     httpOnly: true,
-    sameSite: "strict",
-    secure: true,
+    sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
+    secure: process.env.NODE_ENV === "production",
     maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
   });
   return token;
 };
-
-
