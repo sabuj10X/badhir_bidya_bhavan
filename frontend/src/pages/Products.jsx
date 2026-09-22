@@ -1,6 +1,6 @@
 import React from "react";
 import ProductNavbar from "../components/navbar/ProductNavbar.jsx";
-import LatestCollection from "../components/LatestCollection/LatestCollection.jsx";
+import LatestCollection from "../components/latestCollection/LatestCollection.jsx";
 import Footer from "../components/Footer/Footer.jsx";
 import BestSeller from "../components/latestCollection/BestSeller.jsx";
 import SearchBar from "../components/searchBar/SearchBar.jsx";
