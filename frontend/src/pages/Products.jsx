@@ -12,9 +12,9 @@ const Products = () => {
       <div className="pt-[75px] ">
         <SearchBar />
         <LatestCollection />
-        <BestSeller/>
+        <BestSeller />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
