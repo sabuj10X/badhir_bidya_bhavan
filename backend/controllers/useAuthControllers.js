@@ -1,5 +1,3 @@
-// import { where } from "sequelize";
-// import { User } from "../db/db.js";
 import dotenv from "dotenv";
 import { generateToken } from "../auth/auth.js";
 
