@@ -46,10 +46,10 @@ const ContactUs = () => {
                 {/* Email Address */}
                 <div className="bg-gray-50 rounded-lg p-4 mb-6">
                   <a
-                    href="mailto:sabuj712515@gmail.com"
+                    href="mailto:surajitnag27@gmail.com"
                     className="text-blue-600 font-semibold text-lg hover:text-blue-700 transition-colors duration-300"
                   >
-                    sabuj712515@gmail.com
+                    surajitnag27@gmail.com
                   </a>
                 </div>
 
