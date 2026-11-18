@@ -46,29 +46,8 @@ const Donation = () => {
         </div>
 
         {/* Donation Options */}
-        <div className="grid md:grid-cols-2 gap-6 mb-8">
+        <div className="grid md:grid-cols-1 mb-8">
           
-          {/* Razorpay Option */}
-          <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-indigo-100 hover:border-indigo-300 transition-all duration-300">
-            <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-indigo-900 mb-2">Razorpay</h3>
-              <p className="text-indigo-600 text-center mb-6">
-                Pay securely with card, UPI, netbanking, or wallet
-              </p>
-              <button 
-                onClick={() => toast.error("Razorpay integration coming soon!")}
-                className="w-full bg-indigo-600 text-white py-3 px-6 rounded-xl font-semibold hover:bg-indigo-700 transition-all duration-300 hover:scale-105 shadow-md"
-              >
-                Donate via Razorpay
-              </button>
-            </div>
-          </div>
-
           {/* UPI Option */}
           <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-indigo-100 hover:border-indigo-300 transition-all duration-300">
             <div className="flex flex-col items-center">
